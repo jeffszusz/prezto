@@ -11,4 +11,6 @@ fi
 
 # Includes
 
-source ~/.zsh.d/*
+for f in ~/.zsh.d/*
+    do source $f
+done
